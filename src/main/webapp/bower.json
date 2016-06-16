@@ -1,0 +1,26 @@
+{
+  "name": "cinq",
+  "authors": [
+    "rodriguesl3 <l.rsouza@outlook.com>"
+  ],
+  "description": "test to evaluate angular knowledge",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "angular-ui-router": "^0.3.1",
+    "grunt": "^1.0.1"
+  }
+}

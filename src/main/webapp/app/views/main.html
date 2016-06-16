@@ -1,0 +1,10 @@
+﻿<div class="container" ng-controller="peopleController as vm">
+    <div ng-repeat="person in vm.users track by $index">
+        <div class="content">
+            <div class="card">
+                <h2 class="title">{{person.name}}</h2>
+                <div class="description">{{person.disclosableInfo}}</div>
+            </div>
+        </div>
+    </div>
+</div>
